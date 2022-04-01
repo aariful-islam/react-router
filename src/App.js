@@ -4,12 +4,14 @@ import './App.css';
 import './Componetns/About/About'
 import About from './Componetns/About/About';
 import Friends from './Componetns/Friends/Friends';
+import Header from './Componetns/Header/Header';
 import Home from './Componetns/Home/Home';
 
 
 function App() {
   return (
     <div className="App">
+      <Header></Header>
     
      <Routes>
        <Route path='/' element={<Home></Home>}>
